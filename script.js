@@ -633,7 +633,7 @@ document.addEventListener("DOMContentLoaded", () => {
     */
 
     const whatsappNumber =
-        "201000000000";
+        "201112736689";
 
 
     if (inquiryForm) {
@@ -1207,10 +1207,12 @@ Please share your best wholesale price, MOQ, available options and shipping deta
    AFFILIATE APPLICATION
 ========================================================= */
 
-const affiliateForm = document.getElementById("affiliateForm");
-const affiliateMessage = document.getElementById("affiliateMessage");
+document.addEventListener("DOMContentLoaded", function () {
 
-if (affiliateForm) {
+    const affiliateForm = document.getElementById("affiliateForm");
+    const affiliateMessage = document.getElementById("affiliateMessage");
+
+    if (affiliateForm) {
 
     affiliateForm.addEventListener("submit", function (event) {
 
@@ -1282,7 +1284,9 @@ if (affiliateForm) {
 
     });
 
-}/* =========================================================
+    }
+
+}); /* =========================================================
    CLOTHING HUB EGYPT — PRODUCT PRICES
    Add this at the VERY END of script.js
 ========================================================= */
@@ -1493,151 +1497,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-}); /* =========================================================
-   CLOTHING HUB EGYPT — NEW PRODUCT CATEGORIES
-   Paste at the VERY END of script.js
-========================================================= */
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    const newProducts = [
-        {
-            name: "Denim Jackets",
-            category: "Denim",
-            price: "$13.00",
-            image: "images/denim-jacket.jpg"
-        },
-        {
-            name: "Jeans",
-            category: "Jeans",
-            price: "$11.00",
-            image: "images/jeans.jpg"
-        },
-        {
-            name: "Ties",
-            category: "Accessories",
-            price: "$4.00",
-            image: "images/ties.jpg"
-        },
-        {
-            name: "Belts",
-            category: "Accessories",
-            price: "$5.00",
-            image: "images/belts.jpg"
-        },
-        {
-            name: "Women's Purses",
-            category: "Accessories",
-            price: "$9.00",
-            image: "images/womens-purses.jpg"
-        },
-        {
-            name: "Sportswear",
-            category: "Sports",
-            price: "$9.00",
-            image: "images/sportswear.jpg"
-        }
-    ];
-
-
-    /*
-     * Find the existing product grid.
-     * The script checks several common class names.
-     */
-
-    const productGrid =
-        document.querySelector(".products-grid") ||
-        document.querySelector(".product-grid") ||
-        document.querySelector("#productsGrid") ||
-        document.querySelector(".products-container");
-
-
-    /*
-     * If your website has no matching product grid,
-     * nothing will be changed.
-     */
-
-    if (!productGrid) return;
-
-
-    /*
-     * Prevent duplicate insertion.
-     */
-
-    if (document.querySelector(".extra-clothing-products")) return;
-
-
-    const wrapper =
-        document.createElement("div");
-
-    wrapper.className =
-        "extra-clothing-products";
-
-
-    newProducts.forEach(function (product) {
-
-        const card =
-            document.createElement("article");
-
-        card.className =
-            "product-card extra-product-card";
-
-        card.dataset.category =
-            product.category.toLowerCase();
-
-
-        card.innerHTML = `
-
-            <div class="product-image">
-
-                <img
-                    src="${product.image}"
-                    alt="${product.name}"
-                    loading="lazy"
-                >
-
-            </div>
-
-
-            <div class="product-info">
-
-                <span class="product-category">
-                    ${product.category}
-                </span>
-
-                <h3>
-                    ${product.name}
-                </h3>
-
-                <div class="auto-product-price">
-
-                    <span>
-                        Wholesale
-                    </span>
-
-                    <strong>
-                        ${product.price}
-                    </strong>
-
-                    <small>
-                        per piece
-                    </small>
-
-                </div>
-
-            </div>
-
-        `;
-
-
-        wrapper.appendChild(card);
-
-    });
-
-
-    productGrid.appendChild(wrapper);
-
-}); /* =========================================================
+/* =========================================================
    CLOTHING HUB EGYPT — EXTRA PRODUCTS FINAL ORDER
 ========================================================= */
 
@@ -1648,37 +1508,37 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Denim Jackets",
             category: "Denim",
             price: "$13.00",
-            image: "images/denim-jacket.jpg"
+            image: "denim-jacket.jpg"
         },
         {
             name: "Jeans",
             category: "Denim",
             price: "$11.00",
-            image: "images/jeans.jpg"
+            image: "jeans.jpg"
         },
         {
             name: "Ties",
             category: "Accessories",
             price: "$4.00",
-            image: "images/ties.jpg"
+            image: "ties.jpg"
         },
         {
             name: "Belts",
             category: "Accessories",
             price: "$5.00",
-            image: "images/belts.jpg"
+            image: "belts.jpg"
         },
         {
             name: "Women's Purses",
             category: "Accessories",
             price: "$9.00",
-            image: "images/womens-purses.jpg"
+            image: "womens-purses.jpg"
         },
         {
             name: "Sportswear",
             category: "Sports",
             price: "$9.00",
-            image: "images/sportswear.jpg"
+            image: "sportswear.jpg"
         }
     ];
 
