@@ -151,10 +151,8 @@ button {
 
 .container {
 
-    width: min(
-        1180px,
-        calc(100% - 60px)
-    );
+    width: min(1180px,
+            calc(100% - 60px));
 
     margin: 0 auto;
 
@@ -299,7 +297,7 @@ em {
 }
 
 
-.section-heading > p {
+.section-heading>p {
 
     max-width: 390px;
 
@@ -310,7 +308,7 @@ em {
 }
 
 
-.section-heading.light > p {
+.section-heading.light>p {
 
     color: var(--muted-light);
 
@@ -391,7 +389,7 @@ em {
 .btn-light-outline {
 
     border-color:
-        rgba(255,255,255,0.4);
+        rgba(255, 255, 255, 0.4);
 
     color: var(--white);
 
@@ -556,7 +554,7 @@ em {
     overflow: hidden;
 
     background:
-        rgba(255,255,255,0.15);
+        rgba(255, 255, 255, 0.15);
 
 }
 
@@ -572,8 +570,7 @@ em {
     background: var(--bronze);
 
     animation:
-        loaderProgress 1.8s
-        ease forwards;
+        loaderProgress 1.8s ease forwards;
 
 }
 
@@ -633,10 +630,10 @@ em {
     padding: 16px 0;
 
     background:
-        rgba(8,8,8,0.96);
+        rgba(8, 8, 8, 0.96);
 
     box-shadow:
-        0 10px 40px rgba(0,0,0,0.2);
+        0 10px 40px rgba(0, 0, 0, 0.2);
 
     backdrop-filter:
         blur(15px);
@@ -715,7 +712,7 @@ em {
 
     position: relative;
 
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
 
     font-size: 8px;
 
@@ -779,8 +776,7 @@ em {
 
     padding: 12px 17px;
 
-    border: 1px solid
-        rgba(255,255,255,0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
     color: var(--white);
 
@@ -843,8 +839,7 @@ em {
 .menu-toggle.active span:nth-child(1) {
 
     transform:
-        translateY(7px)
-        rotate(45deg);
+        translateY(7px) rotate(45deg);
 
 }
 
@@ -859,8 +854,7 @@ em {
 .menu-toggle.active span:nth-child(3) {
 
     transform:
-        translateY(-7px)
-        rotate(-45deg);
+        translateY(-7px) rotate(-45deg);
 
 }
 
@@ -885,15 +879,12 @@ em {
 
     background:
 
-        linear-gradient(
-            90deg,
-            rgba(0,0,0,0.88),
-            rgba(0,0,0,0.48),
-            rgba(0,0,0,0.35)
-        ),
+        linear-gradient(90deg,
+            rgba(0, 0, 0, 0.88),
+            rgba(0, 0, 0, 0.48),
+            rgba(0, 0, 0, 0.35)),
 
-        url("images/hero.jpg")
-        center / cover no-repeat;
+        url("hero.jpg") center / cover no-repeat;
 
 }
 
@@ -905,12 +896,10 @@ em {
     inset: 0;
 
     background:
-        linear-gradient(
-            180deg,
-            rgba(0,0,0,0.2),
+        linear-gradient(180deg,
+            rgba(0, 0, 0, 0.2),
             transparent 45%,
-            rgba(0,0,0,0.65)
-        );
+            rgba(0, 0, 0, 0.65));
 
     pointer-events: none;
 
@@ -950,7 +939,7 @@ em {
     margin-top: 28px;
 
     color:
-        rgba(255,255,255,0.72);
+        rgba(255, 255, 255, 0.72);
 
     font-size: 12px;
 
@@ -1037,7 +1026,7 @@ em {
 .hero-side span {
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255, 255, 255, 0.55);
 
     font-size: 6px;
 
@@ -1077,7 +1066,7 @@ em {
         translateX(-50%);
 
     color:
-        rgba(255,255,255,0.55);
+        rgba(255, 255, 255, 0.55);
 
     font-size: 6px;
 
@@ -1143,7 +1132,7 @@ em {
 }
 
 
-.intro-main > p {
+.intro-main>p {
 
     max-width: 620px;
 
@@ -1263,7 +1252,7 @@ em {
     inset: 0;
 
     background:
-        rgba(0,0,0,0.18);
+        rgba(0, 0, 0, 0.18);
 
     transition: var(--transition);
 
@@ -1273,7 +1262,7 @@ em {
 .collection-card:hover::before {
 
     background:
-        rgba(0,0,0,0.42);
+        rgba(0, 0, 0, 0.42);
 
 }
 
@@ -1281,7 +1270,7 @@ em {
 .collection-men {
 
     background-image:
-        url("images/collection-men.jpg");
+        url("collection-men.jpg");
 
 }
 
@@ -1289,7 +1278,7 @@ em {
 .collection-women {
 
     background-image:
-        url("images/collection-women.jpg");
+        url("collection-women.jpg");
 
 }
 
@@ -1297,7 +1286,7 @@ em {
 .collection-kids {
 
     background-image:
-        url("images/collection-kids.jpg");
+        url("collection-kids.jpg");
 
 }
 
@@ -1305,7 +1294,7 @@ em {
 .collection-bulk {
 
     background-image:
-        url("images/collection-bulk.jpg");
+        url("collection-bulk.jpg");
 
 }
 
@@ -1317,10 +1306,8 @@ em {
     inset: 0;
 
     background:
-        linear-gradient(
-            transparent 35%,
-            rgba(0,0,0,0.85)
-        );
+        linear-gradient(transparent 35%,
+            rgba(0, 0, 0, 0.85));
 
 }
 
@@ -1338,7 +1325,7 @@ em {
 }
 
 
-.collection-content > span {
+.collection-content>span {
 
     color: var(--bronze-light);
 
@@ -1364,7 +1351,7 @@ em {
 .collection-content p {
 
     color:
-        rgba(255,255,255,0.65);
+        rgba(255, 255, 255, 0.65);
 
     font-size: 9px;
 
@@ -1384,8 +1371,7 @@ em {
 }
 
 
-.collection-card:hover
-.collection-content i {
+.collection-card:hover .collection-content i {
 
     transform:
         translateX(8px);
@@ -1605,8 +1591,7 @@ em {
 }
 
 
-.product-card:hover
-.product-image img {
+.product-card:hover .product-image img {
 
     transform:
         scale(1.05);
@@ -1626,7 +1611,7 @@ em {
         6px 9px;
 
     background:
-        rgba(255,255,255,0.92);
+        rgba(255, 255, 255, 0.92);
 
     color: var(--black);
 
@@ -1678,8 +1663,7 @@ em {
 }
 
 
-.product-card:hover
-.product-view {
+.product-card:hover .product-view {
 
     opacity: 1;
 
@@ -1697,7 +1681,7 @@ em {
 }
 
 
-.product-info > span {
+.product-info>span {
 
     color: var(--bronze);
 
@@ -1796,12 +1780,12 @@ em {
 .process-card:hover {
 
     background:
-        rgba(255,255,255,0.035);
+        rgba(255, 255, 255, 0.035);
 
 }
 
 
-.process-card > span {
+.process-card>span {
 
     color: var(--bronze);
 
@@ -1812,7 +1796,7 @@ em {
 }
 
 
-.process-card > i {
+.process-card>i {
 
     display: block;
 
@@ -1893,7 +1877,7 @@ em {
 }
 
 
-.trust-card > span {
+.trust-card>span {
 
     color: var(--bronze);
 
@@ -1970,7 +1954,7 @@ em {
 }
 
 
-.markets-heading > p {
+.markets-heading>p {
 
     max-width: 480px;
 
@@ -2068,7 +2052,7 @@ em {
 }
 
 
-.contact-brand > span {
+.contact-brand>span {
 
     color: var(--bronze);
 
@@ -2205,13 +2189,12 @@ em {
     background: var(--white);
 
     box-shadow:
-        0 20px 70px
-        rgba(0,0,0,0.05);
+        0 20px 70px rgba(0, 0, 0, 0.05);
 
 }
 
 
-.form-heading > span {
+.form-heading>span {
 
     color: var(--bronze);
 
@@ -2279,8 +2262,7 @@ em {
     padding:
         13px 14px;
 
-    border: 1px solid
-        rgba(0,0,0,0.13);
+    border: 1px solid rgba(0, 0, 0, 0.13);
 
     outline: none;
 
@@ -2572,7 +2554,7 @@ em {
     justify-content: center;
 
     border:
-        1px solid rgba(255,255,255,0.15);
+        1px solid rgba(255, 255, 255, 0.15);
 
 }
 
@@ -2597,7 +2579,7 @@ em {
     padding-top: 22px;
 
     border-top:
-        1px solid rgba(255,255,255,0.1);
+        1px solid rgba(255, 255, 255, 0.1);
 
     color: #555;
 
@@ -2650,8 +2632,7 @@ em {
     color: var(--white);
 
     box-shadow:
-        0 12px 35px
-        rgba(0,0,0,0.2);
+        0 12px 35px rgba(0, 0, 0, 0.2);
 
     font-size: 7px;
 
@@ -2732,7 +2713,7 @@ em {
     inset: 0;
 
     background:
-        rgba(0,0,0,0.82);
+        rgba(0, 0, 0, 0.82);
 
     backdrop-filter:
         blur(7px);
@@ -2761,8 +2742,7 @@ em {
 }
 
 
-.product-modal.open
-.modal-box {
+.product-modal.open .modal-box {
 
     transform:
         translateY(0);
@@ -2799,7 +2779,7 @@ em {
 }
 
 
-.modal-content > span {
+.modal-content>span {
 
     color: var(--bronze);
 
@@ -2885,7 +2865,7 @@ em {
     height: 42px;
 
     background:
-        rgba(169,130,82,0.12);
+        rgba(169, 130, 82, 0.12);
 
 }
 
@@ -3017,10 +2997,8 @@ em {
     .container {
 
         width:
-            min(
-                100% - 36px,
-                600px
-            );
+            min(100% - 36px,
+                600px);
 
     }
 
@@ -3079,7 +3057,7 @@ em {
         gap: 25px;
 
         background:
-            rgba(8,8,8,0.98);
+            rgba(8, 8, 8, 0.98);
 
         opacity: 0;
 
@@ -3803,44 +3781,47 @@ em {
     *::before,
     *::after {
 
-       /* =========================================================
+        /* =========================================================
    CLOTHING HUB EGYPT — FINAL LUXURY POLISH
    PASTE AT THE VERY END OF style.css
 ========================================================= */
 
 
-/* ---------- PREMIUM SMOOTHNESS ---------- */
+/* =========================================================
+   27 — REDUCED MOTION
+========================================================= */
 
-html {
-    scroll-behavior: smooth;
+@media (prefers-reduced-motion: reduce) {
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
 }
 
+
+/* =========================================================
+   28 — LUXURY POLISH
+========================================================= */
+
 body {
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
-
-
-/* ---------- PREMIUM SELECTION ---------- */
-
-::selection {
-    background: #111;
-    color: #d6b47a;
-}
-
-
-/* ---------- LUXURY BUTTON EFFECT ---------- */
 
 .btn {
     position: relative;
     overflow: hidden;
     isolation: isolate;
-    transition:
-        transform 0.35s ease,
-        box-shadow 0.35s ease,
-        background 0.35s ease,
-        color 0.35s ease;
 }
 
 .btn::before {
@@ -3864,9 +3845,6 @@ body {
     transform: translateY(-4px);
 }
 
-
-/* ---------- LUXURY NAV ---------- */
-
 .navbar {
     transition:
         background 0.4s ease,
@@ -3879,11 +3857,7 @@ body {
     background: rgba(8, 8, 8, 0.92);
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-    box-shadow: 0 10px 40px rgba(0,0,0,0.18);
 }
-
-
-/* ---------- PREMIUM BRAND ---------- */
 
 .brand-logo,
 .footer-logo {
@@ -3898,11 +3872,7 @@ body {
     letter-spacing: 0.2em;
 }
 
-
-/* ---------- COLLECTION CARDS ---------- */
-
 .collection-card {
-    overflow: hidden;
     transform: translateZ(0);
 }
 
@@ -3929,9 +3899,6 @@ body {
     transform: scale(1.06);
 }
 
-
-/* ---------- PRODUCT CARDS ---------- */
-
 .product-card {
     transition:
         transform 0.45s cubic-bezier(.2,.7,.2,1),
@@ -3940,12 +3907,7 @@ body {
 
 .product-card:hover {
     transform: translateY(-8px);
-    box-shadow:
-        0 24px 60px rgba(0,0,0,0.12);
-}
-
-.product-image {
-    overflow: hidden;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.12);
 }
 
 .product-image img {
@@ -3958,9 +3920,6 @@ body {
     transform: scale(1.07);
 }
 
-
-/* ---------- PRODUCT VIEW ---------- */
-
 .product-view {
     transition:
         transform 0.35s ease,
@@ -3971,9 +3930,6 @@ body {
 .product-view:hover {
     transform: translateX(5px);
 }
-
-
-/* ---------- FILTER BUTTONS ---------- */
 
 .filter-btn {
     transition:
@@ -3988,12 +3944,8 @@ body {
 }
 
 .filter-btn.active {
-    box-shadow:
-        0 8px 25px rgba(0,0,0,0.12);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
 }
-
-
-/* ---------- TRUST / PROCESS CARDS ---------- */
 
 .trust-card,
 .process-card {
@@ -4006,12 +3958,8 @@ body {
 .trust-card:hover,
 .process-card:hover {
     transform: translateY(-7px);
-    box-shadow:
-        0 20px 45px rgba(0,0,0,0.10);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.10);
 }
-
-
-/* ---------- MARKET ITEMS ---------- */
 
 .market-item {
     transition:
@@ -4022,16 +3970,6 @@ body {
 
 .market-item:hover {
     padding-left: 18px;
-}
-
-
-/* ---------- TEXT LINKS ---------- */
-
-.text-link {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
 }
 
 .text-link::after {
@@ -4052,121 +3990,29 @@ body {
     transform-origin: left;
 }
 
-
-/* ---------- FORM PREMIUM EFFECT ---------- */
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-    transition:
-        border-color 0.3s ease,
-        box-shadow 0.3s ease,
-        background 0.3s ease;
-}
-
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-    outline: none;
     border-color: #b89562;
-    box-shadow:
-        0 0 0 4px rgba(184,149,98,0.10);
-}
-
-
-/* ---------- FLOATING WHATSAPP ---------- */
-
-.floating-whatsapp {
-    transition:
-        transform 0.35s ease,
-        box-shadow 0.35s ease;
+    box-shadow: 0 0 0 4px rgba(184,149,98,0.10);
 }
 
 .floating-whatsapp:hover {
     transform: translateY(-5px);
-    box-shadow:
-        0 15px 35px rgba(0,0,0,0.20);
-}
-
-
-/* ---------- MODAL ---------- */
-
-.product-modal {
-    opacity: 0;
-    visibility: hidden;
-    transition:
-        opacity 0.35s ease,
-        visibility 0.35s ease;
-}
-
-.product-modal.open {
-    opacity: 1;
-    visibility: visible;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.20);
 }
 
 .modal-box {
     transform: translateY(25px) scale(0.97);
-    transition:
-        transform 0.45s cubic-bezier(.2,.7,.2,1);
+    transition: transform 0.45s cubic-bezier(.2,.7,.2,1);
 }
 
 .product-modal.open .modal-box {
     transform: translateY(0) scale(1);
 }
 
-
-/* ---------- LOADER ---------- */
-
-.site-loader {
-    transition:
-        opacity 0.8s ease,
-        visibility 0.8s ease;
-}
-
-.site-loader.loaded {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.loader-line span {
-    animation:
-        loaderProgress 1.4s ease forwards;
-}
-
-@keyframes loaderProgress {
-
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
-
-}
-
-
-/* ---------- REVEAL ANIMATION ---------- */
-
-.reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition:
-        opacity 0.8s ease,
-        transform 0.8s cubic-bezier(.2,.7,.2,1);
-}
-
-.reveal.revealed {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-
-/* ---------- HERO PREMIUM MOTION ---------- */
-
 .hero-content {
-    animation:
-        heroEntrance 1.1s cubic-bezier(.2,.7,.2,1) both;
+    animation: heroEntrance 1.1s cubic-bezier(.2,.7,.2,1) both;
 }
 
 @keyframes heroEntrance {
@@ -4183,32 +4029,7 @@ body {
 
 }
 
-
-/* ---------- IMAGE RENDERING ---------- */
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-img {
-    image-rendering: auto;
-}
-
-
-/* ---------- MOBILE PREMIUM FINISH ---------- */
-
 @media (max-width: 768px) {
-
-    .btn {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .hero-buttons {
-        width: 100%;
-    }
 
     .product-card:hover {
         transform: translateY(-4px);
@@ -4218,29 +4039,11 @@ img {
         transform: scale(1.03);
     }
 
-    .floating-whatsapp span {
-        display: none;
-    }
-
 }
 
 
-/* ---------- REDUCE MOTION ACCESSIBILITY ---------- */
-
-@media (prefers-reduced-motion: reduce) {
-
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
-
-}
-}/* =========================================================
-   AFFILIATE PROGRAM — LUXURY DESIGN
+/* =========================================================
+   29 — AFFILIATE PROGRAM
 ========================================================= */
 
 .affiliate-section {
@@ -4342,8 +4145,7 @@ img {
     padding: 50px;
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow:
-        0 30px 80px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.09);
 }
 
 .affiliate-form-box::before {
@@ -4430,8 +4232,7 @@ img {
     outline: none;
     border-color: #a98758;
     background: #fff;
-    box-shadow:
-        0 0 0 4px rgba(169, 135, 88, 0.08);
+    box-shadow: 0 0 0 4px rgba(169, 135, 88, 0.08);
 }
 
 .affiliate-checkbox {
@@ -4471,9 +4272,6 @@ img {
     display: block;
 }
 
-
-/* ---------- AFFILIATE MOBILE ---------- */
-
 @media (max-width: 900px) {
 
     .affiliate-container {
@@ -4506,104 +4304,19 @@ img {
         font-size: 48px;
     }
 
-}```css
-/* =====================================================
-   CLOTHING HUB EGYPT — FLOATING WHATSAPP
-===================================================== */
-
-.contact-floating {
-    position: fixed;
-    right: 24px;
-    bottom: 24px;
-    z-index: 9999;
 }
 
-.contact-floating .floating-whatsapp {
-    display: inline-flex;
-    align-items: center;
-    gap: 11px;
 
-    padding: 14px 20px;
-
-    background: #111;
-    color: #fff;
-
-    border: 1px solid rgba(184, 149, 98, 0.45);
-
-    text-decoration: none;
-
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-
-    box-shadow:
-        0 15px 40px rgba(0, 0, 0, 0.20);
-
-    transition:
-        transform 0.35s ease,
-        background 0.35s ease,
-        box-shadow 0.35s ease;
-}
-
-.contact-floating .floating-whatsapp i {
-    font-size: 19px;
-    color: #d6b47a;
-}
-
-.contact-floating .floating-whatsapp:hover {
-    transform: translateY(-5px);
-
-    background: #1a1a1a;
-
-    box-shadow:
-        0 20px 50px rgba(0, 0, 0, 0.28);
-}
-
-@media (max-width: 600px) {
-
-    .contact-floating {
-        right: 15px;
-        bottom: 15px;
-    }
-
-    .contact-floating .floating-whatsapp {
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        justify-content: center;
-        border-radius: 50%;
-    }
-
-    .contact-floating .floating-whatsapp span {
-        display: none;
-    }
-
-    .contact-floating .floating-whatsapp i {
-        font-size: 21px;
-    }
-
-}
-```
-/* =====================================================
-   CLOTHING HUB EGYPT — CONTACT DETAILS
-===================================================== */
-
-const CLOTHING_HUB_CONTACT = {
-    whatsapp: "201112736689",
-    email: "clothinghubegypt4@gmail.com"
-};/* =========================================================
-   CLOTHING HUB EGYPT — AUTOMATIC PRODUCT PRICE
+/* =========================================================
+   30 — AUTO PRODUCT PRICE
 ========================================================= */
 
 .auto-product-price {
     display: flex;
     align-items: baseline;
     gap: 8px;
-
     margin-top: 12px;
     padding-top: 12px;
-
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
@@ -4627,16 +4340,10 @@ const CLOTHING_HUB_CONTACT = {
     color: #777;
 }
 
-
-/* Luxury hover */
-
 .product-card:hover .auto-product-price strong {
     color: #a98758;
     transition: color 0.3s ease;
 }
-
-
-/* Mobile */
 
 @media (max-width: 600px) {
 
@@ -4644,8 +4351,11 @@ const CLOTHING_HUB_CONTACT = {
         font-size: 18px;
     }
 
-} /* =========================================================
-   EXTRA CLOTHING PRODUCTS
+}
+
+
+/* =========================================================
+   31 — EXTRA PRODUCTS GRID
 ========================================================= */
 
 .extra-clothing-products {
@@ -4670,69 +4380,8 @@ const CLOTHING_HUB_CONTACT = {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
     transition: transform 0.8s cubic-bezier(.2,.7,.2,1);
-}
-
-.extra-product-card:hover .product-image img {
-    transform: scale(1.06);
-}
-
-.extra-product-card .product-info {
-    padding: 20px 0;
-}
-
-.extra-product-card .product-category {
-    display: block;
-    margin-bottom: 7px;
-    color: #a98758;
-    font-size: 9px;
-    font-weight: 600;
-    letter-spacing: .16em;
-    text-transform: uppercase;
-}
-
-.extra-product-card h3 {
-    margin: 0;
-    font-family: "Cormorant Garamond", serif;
-    font-size: 28px;
-    font-weight: 500;
-}
-
-@media (max-width: 900px) {
-
-    .extra-clothing-products {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .extra-clothing-products {
-        grid-template-columns: 1fr;
-    }
-
-} /* =========================================================
-   EXTRA PRODUCTS — SAME GRID
-========================================================= */
-
-.extra-product-card {
-    overflow: hidden;
-}
-
-.extra-product-card .product-image {
-    aspect-ratio: 4 / 5;
-    overflow: hidden;
-    background: #f2f0eb;
-}
-
-.extra-product-card .product-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transition:
-        transform 0.8s cubic-bezier(.2,.7,.2,1);
 }
 
 .extra-product-card:hover .product-image img {
@@ -4760,11 +4409,24 @@ const CLOTHING_HUB_CONTACT = {
     font-weight: 500;
 }
 
-
-/* Keep normal product grid alignment */
-
 .products-grid,
 .product-grid,
 .products-container {
     align-items: start;
+}
+
+@media (max-width: 900px) {
+
+    .extra-clothing-products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .extra-clothing-products {
+        grid-template-columns: 1fr;
+    }
+
 }
